@@ -210,7 +210,7 @@ class _LinkPreviewState extends State<LinkPreview>
                     left: padding.left,
                     right: padding.right,
                     top: padding.top,
-                    bottom: _hasOnlyImage() ? 0 : 16,
+                    bottom: padding.bottom,
                   ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
